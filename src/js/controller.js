@@ -117,6 +117,7 @@ const controlAddRecipe = async function (newRecipe) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
     console.log('welcome');
+    alert('Hacked');
   }
 };
 
